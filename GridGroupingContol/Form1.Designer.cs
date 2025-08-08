@@ -1,4 +1,4 @@
-﻿namespace GridGroupingControl_Demo4_8
+﻿namespace GridGroupingControl_Demo
 {
     partial class Form1
     {

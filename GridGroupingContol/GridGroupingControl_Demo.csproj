@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A291ABA3-3F95-499E-BAA3-124AA0635799}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>GridGroupingControl_Demo4_8</RootNamespace>
-    <AssemblyName>GridGroupingControl_Demo4_8</AssemblyName>
+    <RootNamespace>GridGroupingControl_Demo</RootNamespace>
+    <AssemblyName>GridGroupingControl_Demo</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,28 +33,24 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Syncfusion.Chart.Base"/>
-    <Reference Include="Syncfusion.Chart.Windows"/>
-    <Reference Include="Syncfusion.Compression.Base"/>
-    <Reference Include="Syncfusion.DocIO.Base"/>
-    <Reference Include="Syncfusion.Grid.Base"/>
-    <Reference Include="Syncfusion.Grid.Grouping.Windows"/>
-    <Reference Include="Syncfusion.Grid.Windows"/>
-    <Reference Include="Syncfusion.Gridconverter.Windows"/>
-    <Reference Include="Syncfusion.GridHelperClasses.Windows"/>
-    <Reference Include="Syncfusion.Grouping.Base"/>
-    <Reference Include="Syncfusion.Licensing"/>
-    <Reference Include="Syncfusion.Linq.Base"/>
-    <Reference Include="Syncfusion.OfficeChart.Base"/>
-    <Reference Include="Syncfusion.Pdf.Base"/>
-    <Reference Include="Syncfusion.PivotAnalysis.Base"/>
-    <Reference Include="Syncfusion.PivotAnalysis.Windows"/>
-    <Reference Include="Syncfusion.Shared.Base"/>
-    <Reference Include="Syncfusion.Shared.Windows"/>
-    <Reference Include="Syncfusion.SpellChecker.Base"/>
-    <Reference Include="Syncfusion.Tools.Base"/>
-    <Reference Include="Syncfusion.Tools.Windows"/>
-    <Reference Include="Syncfusion.XlsIO.Base"/>
+    <Reference Include="Syncfusion.Grid.Grouping.Windows, Version=30.2462.4.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Grid.Grouping.Windows.30.2.4\lib\net462\Syncfusion.Grid.Grouping.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Windows, Version=30.2462.4.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Grid.Windows.30.2.4\lib\net462\Syncfusion.Grid.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.GridHelperClasses.Windows, Version=30.2462.4.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.GridHelperClasses.Windows.30.2.4\lib\net462\Syncfusion.GridHelperClasses.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grouping.Base, Version=30.2462.4.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Grouping.Base.30.2.4\lib\net462\Syncfusion.Grouping.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base, Version=30.2462.4.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Shared.Base.30.2.4\lib\net462\Syncfusion.Shared.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Windows, Version=30.2462.4.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Shared.Windows.30.2.4\lib\net462\Syncfusion.Shared.Windows.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -87,8 +83,8 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -12,7 +12,7 @@ using Syncfusion.GridHelperClasses;
 using Syncfusion.Windows.Forms.Grid;
 using Syncfusion.Windows.Forms.Grid.Grouping;
 
-namespace GridGroupingControl_Demo4_8
+namespace GridGroupingControl_Demo
 {
     public partial class Form1 : Form
     {
@@ -55,7 +55,7 @@ namespace GridGroupingControl_Demo4_8
 
         private void OnRecordFiltersItemChanged(object sender, ListPropertyChangedEventArgs e)
         {
-            var filteredValues = (e.Tag as Dictionary<string, System.Collections.Generic.List<string>>).Values;
+            var filteredValues = (e.Tag as Dictionary<string, List<string>>).Values;
         }
     }
 }

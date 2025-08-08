@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GridGroupingControl_Demo4_8
+namespace GridGroupingControl_Demo
 {
     internal static class Program
     {
