@@ -49,10 +49,12 @@ namespace GridGroupingControl_Demo
             //Wiring GridExcelFilter to GridGroupingControl
             gridExcelFilter.WireGrid(this.gridGroupingControl1);
 
+            //Event subscription
             gridExcelFilter.RecordFiltersItemChanged += OnRecordFiltersItemChanged;
 
         }
 
+        //Event customization
         private void OnRecordFiltersItemChanged(object sender, ListPropertyChangedEventArgs e)
         {
             var filteredValues = (e.Tag as Dictionary<string, List<string>>).Values;
