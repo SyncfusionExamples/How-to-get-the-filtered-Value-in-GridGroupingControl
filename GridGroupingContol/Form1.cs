@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Syncfusion.Collections;
 using Syncfusion.GridHelperClasses;
 using Syncfusion.Windows.Forms.Grid;
 using Syncfusion.Windows.Forms.Grid.Grouping;
@@ -48,11 +49,11 @@ namespace GridGroupingControl_Demo4_8
             //Wiring GridExcelFilter to GridGroupingControl
             gridExcelFilter.WireGrid(this.gridGroupingControl1);
 
-            gridExcelFilter.RecordFiltersItemChanged += Filter_RecordFiltersItemChanged;
+            gridExcelFilter.RecordFiltersItemChanged += OnRecordFiltersItemChanged;
 
         }
 
-        private void Filter_RecordFiltersItemChanged(object sender, Syncfusion.Collections.ListPropertyChangedEventArgs e)
+        private void OnRecordFiltersItemChanged(object sender, ListPropertyChangedEventArgs e)
         {
             var filteredValues = (e.Tag as Dictionary<string, System.Collections.Generic.List<string>>).Values;
         }
