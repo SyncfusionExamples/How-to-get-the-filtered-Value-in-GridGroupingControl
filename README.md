@@ -1,4 +1,4 @@
-# How to get the filtered Value in GridGroupingControl?
+# How to get the filtered Value in WinForms GridGroupingControl?
 
 In [WinForms GridGroupingControl](https://help.syncfusion.com/windowsforms/gridgrouping/overview), filtered values can be accessed through the [RecordFiltersItemChanged](https://help.syncfusion.com/cr/windowsforms/Syncfusion.GridHelperClasses.GridExcelFilter.html#Syncfusion_GridHelperClasses_GridExcelFilter_RecordFiltersItemChanged) event of [GridExcelFilter](https://help.syncfusion.com/cr/windowsforms/Syncfusion.GridHelperClasses.GridExcelFilter.html). This event is triggered once a filter has been applied to the **GridGroupingControl**.
 
